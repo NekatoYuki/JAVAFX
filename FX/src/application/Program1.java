@@ -15,7 +15,7 @@ package application;
 	    
 	    @Override
 	    public void start(Stage primaryStage) {
-	        primaryStage.setTitle("HelloWorld!");
+	        primaryStage.setTitle("Program1");
 	        Button btn = new Button();
 	        btn.setText("Say 'Hello World'");
 	        btn.setOnAction(new EventHandler<ActionEvent>() {
