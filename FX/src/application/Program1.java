@@ -13,7 +13,7 @@ package application;
 	        launch(args);
 	    }
 	    
-	    @Override
+
 	    public void start(Stage primaryStage) {
 	        primaryStage.setTitle("Program1");
 	        Button btn = new Button();
@@ -26,26 +26,12 @@ package application;
 	            }
 	        });
 	        
-	    /*    Button btn1 = new Button();
-	        btn1.setText("Say 'GoodBye World'");
-	        btn1.setOnAction(new EventHandler<ActionEvent>() {
-	        	
-	        	@Override
-	            public void handle(ActionEvent event) {
-	                System.out.println("Goodbye World!");
-	            }
-	        }); */
-	        
 	        
 	        StackPane root = new StackPane();
 	        root.getChildren().add(btn);
-	        primaryStage.setScene(new Scene(root, 1920, 1080));
+	        primaryStage.setScene(new Scene(root, 1080, 720));
 	        primaryStage.show();
-	        
-	    /*    StackPane root1 = new StackPane();
-	        root1.getChildren().add(btn1);
-	        primaryStage.setScene(new Scene(root1, 300, 400));
-	        primaryStage.show(); */
-	    }
-	}
+	 
+	 }
+}
 
