@@ -26,7 +26,7 @@ package application;
 	            }
 	        });
 	        
-	        Button btn1 = new Button();
+	    /*    Button btn1 = new Button();
 	        btn1.setText("Say 'GoodBye World'");
 	        btn1.setOnAction(new EventHandler<ActionEvent>() {
 	        	
@@ -34,7 +34,7 @@ package application;
 	            public void handle(ActionEvent event) {
 	                System.out.println("Goodbye World!");
 	            }
-	        });
+	        }); */
 	        
 	        
 	        StackPane root = new StackPane();
@@ -42,10 +42,10 @@ package application;
 	        primaryStage.setScene(new Scene(root, 300, 100));
 	        primaryStage.show();
 	        
-	        StackPane root1 = new StackPane();
+	    /*    StackPane root1 = new StackPane();
 	        root1.getChildren().add(btn1);
 	        primaryStage.setScene(new Scene(root1, 300, 400));
-	        primaryStage.show();
+	        primaryStage.show(); */
 	    }
 	}
 
