@@ -39,7 +39,7 @@ package application;
 	        
 	        StackPane root = new StackPane();
 	        root.getChildren().add(btn);
-	        primaryStage.setScene(new Scene(root, 300, 100));
+	        primaryStage.setScene(new Scene(root, 1920, 1080));
 	        primaryStage.show();
 	        
 	    /*    StackPane root1 = new StackPane();
